@@ -223,6 +223,7 @@
   transition: all 0.5;
   animation-duration: 3s;
   -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-duration: 3s;
 }
 .post-video .post-video-icon:before {
@@ -328,9 +329,6 @@
   padding: 8px 15px;
   font-size: 12px;
   text-transform: uppercase;
-}
-.default-el .dz-card.default-el-1:hover {
-/*  box-shadow: 0px 0 50px rgba(0, 0, 0, 0.2);*/
 }
 .default-el .dz-card.default-el-1.blog-half {
   margin: 0;
