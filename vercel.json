@@ -1,13 +1,10 @@
 {
   "version": 2,
+  "public": ".",
   "routes": [
     {
-      "src": "^/$",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/(?!public)",
-      "dest": "/index.html"
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
