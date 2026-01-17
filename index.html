@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" 
-	class="dark"
-	data-theme-color="skin-4"
->
+<html lang="en">
 <head>
 	
 	<!-- PAGE TITLE HERE -->
@@ -10,21 +7,18 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="csrf-token" content="6srmEukPg2MGy37N2zt2mN0dElIsA9dun1IyPSob">
     
     <meta name="keywords" content="Plexify, Creative Agency CMS, Laravel CMS, Page Builder CMS, Laravel Page Editor, Agency Website CMS, Portfolio CMS, Creative Agency Template, Laravel Website Builder, Drag and Drop Menu, Laravel Admin Panel, Digital Agency CMS"/>
 <meta name="description" content="Plexify is a powerful Creative Agency Laravel CMS featuring a drag-and-drop menu, customizable templates, and a fully responsive design. Build agency websites, portfolios, and marketing pages effortlessly with a modern, fast, and secure content management system."/>
 <meta name="author" content="John Doe">
-<meta name="url" content="/?data-theme=dark">
 <meta property="og:title" content="Plexify, Creative Agency CMS, Laravel CMS, Page Builder CMS, Laravel Page Editor, Agency Website CMS, Portfolio CMS, Creative Agency Template, Laravel Website Builder, Drag and Drop Menu, Laravel Admin Panel, Digital Agency CMS"/>
 <meta property="og:description" content="Plexify is a powerful Creative Agency Laravel CMS featuring a drag-and-drop menu, customizable templates, and a fully responsive design. Build agency websites, portfolios, and marketing pages effortlessly with a modern, fast, and secure content management system."/>
 <meta property="og:image" content="./public/storage/page-images/1764853605_social-image.png" />
-<meta property="og:sitename" content="Plexify Laravel" />
-<meta property="og:url" content="/?data-theme=dark"/>    
+<meta property="og:url" content="./"/>    
 
 	<!-- MOBILE SPECIFIC -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="/" />
+	<link rel="canonical" href="./" />
 
     <!-- FAVICONS ICON -->
     <link rel="icon" type="image/png" sizes="32x32" href="./public/storage/theme-options/1765174057.favicon.png">
@@ -697,7 +691,7 @@
                 <div class="flex-1">
                                                             <span class="inline-block py-2 px-15 text-sm/ font-medium bg-primary text-secondary rounded-2xl md:mb-15 mb-10 duration-500 hover:bg-white hover:text-secondary">Seo</span>
                                         <h3 class="sm:text-[30px]/45 text-2xl md:mb-32 mb-15 text-white">
-                        <a class="hover:text-primary" href="/services/search-engine-optimization">Search Engine Optimization</a>
+                        <a class="hover:text-primary" href="#">Search Engine Optimization</a>
                     </h3>
                                                                 <ul class="text-bodytext font-medium mb-45">
                              
@@ -711,7 +705,7 @@
                                                     </ul>
                                     </div>
                 <div class="flex items-center justify-between">
-                    <a href="/services/search-engine-optimization" class="btn btn-primary style-1 p-2 group button--stroke flairBtn" data-block="button">
+                    <a href="#" class="btn btn-primary style-1 p-2 group button--stroke flairBtn" data-block="button">
                         <span class="button-flair__wrapper">
                             <span class="button-flair"></span>
                         </span>
@@ -1164,7 +1158,7 @@
                                 <div class="lg:flex p-10">
                                     <div class="flex flex-col lg:p-35 p-15">
                                         <h4 class="text-[30px]/35 mb-20 text-white">
-                                            <a class="hover:text-primary" href="/post-standard">
+                                            <a class="hover:text-primary" href="#">
                                                 The Future is Designed
                                             </a>
                                         </h4>   
@@ -1937,35 +1931,75 @@
 
 
 	<!-- JAVASCRIPT FILES ========================================= -->
-	<script>
-		var dynamicDate = "2025-12-23";
-		var baseUrl = '';
-	</script>
-	<script src="public/themes/frontend/plexify/js/jquery.min.js"></script>
-		<script src="public/themes/frontend/plexify/vendor/gsap/gsap.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/gsap/MotionPathPlugin.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/gsap/ScrollTrigger.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/gsap/ScrollSmoother.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/gsap/Draggable.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/gsap/InertiaPlugin.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/SplitText/SplitText.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/swiper/swiper-bundle.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/apexchart/apexcharts.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/masonry/masonry-4.2.2.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/matter/matter.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/lightgallery/dist/lightgallery.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/lightgallery/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/lightgallery/dist/plugins/zoom/lg-zoom.min.js"></script>
-	<script src="public/themes/frontend/plexify/vendor/three/three.js"></script>
-    <script src="public/themes/frontend/plexify/vendor/hovereffect/hover-effect.js"></script>
-	<script src="public/themes/frontend/plexify/js/throwable.js"></script>
-	<script src="public/themes/frontend/plexify/js/animation.js"></script>
-	<script src="public/themes/frontend/plexify/js/chart.js"></script>
-	<script src="public/themes/frontend/plexify/js/custom.carousel.js"></script>
-	<script src="public/themes/frontend/plexify/js/dz.carousel.js"></script>
-	<script src="public/themes/frontend/plexify/js/custom.js"></script>
+	<!-- ================= GLOBAL VARIABLES (SAFE) ================= -->
+<script>
+  // Used only for frontend date display if needed
+  var dynamicDate = "2025-12-23";
 
-	<script src="public/themes/frontend/plexify/js/w3cms_frontend.min.js"></script> <!-- W3cms_Frontend JS -->
+  // Base URL not needed for static deploy
+  var baseUrl = "";
+</script>
+
+<!-- ================= CORE LIBRARIES ================= -->
+
+<!-- jQuery (KEEP only if your custom.js uses it) -->
+<script src="./public/themes/frontend/plexify/js/jquery.min.js"></script>
+
+<!-- GSAP Core -->
+<script src="./public/themes/frontend/plexify/vendor/gsap/gsap.min.js"></script>
+<script src="./public/themes/frontend/plexify/vendor/gsap/ScrollTrigger.min.js"></script>
+
+<!-- OPTIONAL GSAP PLUGINS (keep only if used) -->
+<script src="./public/themes/frontend/plexify/vendor/gsap/MotionPathPlugin.min.js"></script>
+<script src="./public/themes/frontend/plexify/vendor/gsap/Draggable.min.js"></script>
+<script src="./public/themes/frontend/plexify/vendor/gsap/InertiaPlugin.min.js"></script>
+<script src="./public/themes/frontend/plexify/vendor/gsap/SplitText/SplitText.min.js"></script>
+
+<!-- ================= UI / COMPONENT LIBRARIES ================= -->
+
+<!-- Swiper (sliders) -->
+<script src="./public/themes/frontend/plexify/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- LightGallery (image/video popups) -->
+<script src="./public/themes/frontend/plexify/vendor/lightgallery/dist/lightgallery.min.js"></script>
+<script src="./public/themes/frontend/plexify/vendor/lightgallery/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
+<script src="./public/themes/frontend/plexify/vendor/lightgallery/dist/plugins/zoom/lg-zoom.min.js"></script>
+
+<!-- ================= OPTIONAL / HEAVY LIBS ================= -->
+<!-- Keep ONLY if actually used -->
+
+<!-- Charts -->
+<script src="./public/themes/frontend/plexify/vendor/apexchart/apexcharts.min.js"></script>
+
+<!-- Masonry layout -->
+<script src="./public/themes/frontend/plexify/vendor/masonry/masonry-4.2.2.js"></script>
+
+<!-- Physics / advanced animation -->
+<script src="./public/themes/frontend/plexify/vendor/matter/matter.js"></script>
+
+<!-- 3D effects -->
+<script src="./public/themes/frontend/plexify/vendor/three/three.js"></script>
+
+<!-- Hover effects -->
+<script src="./public/themes/frontend/plexify/vendor/hovereffect/hover-effect.js"></script>
+
+<!-- ================= PROJECT SCRIPTS ================= -->
+
+<!-- Custom animations (KEEP) -->
+<script src="./public/themes/frontend/plexify/js/animation.js"></script>
+
+<!-- Main custom JS (KEEP) -->
+<script src="./public/themes/frontend/plexify/js/custom.js"></script>
+
+<!-- ================= REMOVED (IMPORTANT) ================= -->
+<!-- ❌ CMS / Backend dependent files removed -->
+<!--
+<script src="public/themes/frontend/plexify/js/w3cms_frontend.min.js"></script>
+<script src="public/themes/frontend/plexify/js/chart.js"></script>
+<script src="public/themes/frontend/plexify/js/custom.carousel.js"></script>
+<script src="public/themes/frontend/plexify/js/dz.carousel.js"></script>
+<script src="public/themes/frontend/plexify/js/throwable.js"></script>
+-->
 
 	
 </body>
