@@ -1,0 +1,255 @@
+/*
+Theme Name: GT3Help - Child
+Author: GT3themes
+Author URI: http://gt3themes.com
+Description: -
+Version: 1.0
+Template: gt3help
+*/
+@import url("../gt3help/style.css");
+
+/* Smart Docs */
+body .gt3-header div.smartdocs-hero-title {
+	font-size: 40px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+body .smartdocs-header .smartdocs-hero-title {
+	--fontSize: 40px;
+}
+body .smartdocs-entry-content img {
+	padding: 0;
+	background: none;
+}
+body .smartdocs-categories .smartdocs-category-thumb img {
+	filter: drop-shadow(5px 5px 0px rgba(172, 240, 255, 0.44));
+	transition: all 300ms;
+	max-width: 72px;
+}
+
+body .smartdocs-categories .smartdocs-category:hover .smartdocs-category-thumb img {
+	filter: drop-shadow(7px 7px 0px rgba(172, 240, 255, 0.8));
+}
+body .gt3-header .smartdocs-header {
+	background-color: transparent;
+	border: none;
+	max-width: 594px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 0 70px 0;
+}
+body .smartdocs-categories {
+	margin: 60px 0;
+}
+body .smartdocs-categories .smartdocs-category-inner .smartdocs-category-articles {
+	visibility: hidden;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	z-index: 10;
+	margin: 0;
+}
+body .smartdocs-categories .smartdocs-category-inner .smartdocs-category-article {
+	position: static;
+}
+body .smartdocs-categories .smartdocs-category-info {
+	position: relative;
+}
+body .smartdocs-categories .smartdocs-category-articles .smartdocs-category-article:first-child a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	visibility: visible;
+	font-size: 0;
+	line-height: 0;
+	z-index: 20;
+}
+body .gt3-header .smartdocs-search ul.smartdocs-search-result {
+	color: var(--contentColor);
+}
+body .gt3-header .smartdocs-search .loading-spinner,
+body:not(.smartdocs-template) .gt3-header .smartdocs-header {
+	display: none !important;
+}
+body.smartdocs-template .gt3-header .smartdocs-search:after,
+body.home .gt3-header .smartdocs-search:after {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	height: 51px;
+	line-height: 50px;
+	background: var(--theme_Color);
+	border-radius: 25px;
+	padding: 0 30px;
+	content: 'search docs';
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+body .gt3-header .smartdocs-search input[type="text"] {
+	background: white;
+	border: none;
+	height: 55px;
+	border-radius: 27px;
+	padding: 0 160px 0 55px;
+}
+body .gt3-header .smartdocs-search input[type="text"]::placeholder {
+	opacity: 1;
+}
+body .gt3-header .smartdocs-search .search-icon {
+	opacity: 1;
+	color: #c9cacb;
+	font-size: 24px;
+	left: 17px;
+}
+body .gt3-header .smartdocs-hero-title {
+	color: inherit;
+	margin: 0;
+}
+body .gt3-header .smartdocs-hero-title + p {
+	font-size: 18px;
+}
+body .widget_smartdocs-categories-widget .cat-item a .cat-count {
+	background: rgba(238,238,238,0.5);
+	color: rgba(52,64,72, 1);
+	transition: all 300ms;
+}
+body .widget_smartdocs-categories-widget .cat-item.active a .cat-count,
+body .widget_smartdocs-categories-widget .cat-item a:hover .cat-count {
+	color: #fff;
+	background: var(--theme_Color);
+}
+body:not(.single) .widget_smartdocs-categories-widget .children .cat-item.active::before,
+body.single .widget_smartdocs-categories-widget .has-posts li.active::before {
+	background: var(--theme_Color) !important;
+}
+body .smartdocs-categories .smartdocs-category-text .smartdocs-category-description {
+	color: var(--contentColor);
+}
+body .smartdocs-categories .smartdocs-posts-info {
+	font-size: 14px;
+	font-weight: 600;
+}
+body .widget_smartdocs-categories-widget .cat-item.active > a > .cat-label,
+body .widget_smartdocs-categories-widget .cat-item .has-posts li.active a,
+body .widget_smartdocs-categories-widget ul li {
+	font-weight: 600;
+}
+body .widget_smartdocs-categories-widget li ul.has-posts > li > a {
+	font-size: 15px;
+	font-weight: normal;
+}
+body .smartdocs-sidebar .widget_smartdocs-categories-widget li ul.has-posts {
+	margin: 2px 0 2px 25px;
+}
+body .widget_smartdocs-categories-widget .cat-item a {
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+body .smartdocs-categories .smartdocs-category .smartdocs-category-inner {
+	border-radius: 8px;
+}
+body .smartdocs-categories .smartdocs-category:hover .smartdocs-category-inner {
+	border-color: var(--theme_Color);
+}
+body.smartdocs-template.archive .smartdocs-entry-title {
+	font-size: 16px;
+	padding-left: 25px;
+}
+body.smartdocs-template.archive .smartdocs-entry-title:before {
+	transform: translateY(4px);
+	content: "";
+	font-family: inherit;
+	font-size: 0;
+	line-height: 0;
+	background-image: url("./img/smart_icon.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 14px;
+	height: 19px;
+}
+@media screen and (max-width: 768px) {
+	body.smartdocs-template.smartdocs-sidebar-left #primary {
+		padding-left: 0;
+	}
+	body.smartdocs-template.smartdocs-sidebar-left .sidebar {
+		padding-right: 0;
+	}
+}
+/* Smart Docs End */
+
+article ol p:empty {
+  display: none;
+}
+body .wp-block-coblocks-accordion-item__title:focus {  outline: none;}
+
+.smartdocs-template code {
+  font-size: 13px;
+}
+
+body.home .gt3-header .smartdocs-header {
+	display: block !important;
+}
+body.home .smartdocs-inner {
+	max-width: 1201px;
+	margin: 0 auto;
+	padding: 30px 0;
+	position: relative;
+}
+body.home .gt3-scroll-box-container > .gt3-container,
+body.home .site-main > .gt3-container {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+body.home .smartdocs-categories {
+	padding-bottom: 20px;
+}
+body.home .gt3-header {
+	z-index: 5;
+}
+@media only screen and (max-width: 1024px) {
+	body.home .smartdocs-inner {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.wp-block-image img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 5px;
+}
+
+.wp-block-kevinbatdorf-code-block-pro {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.smartdocs-entry li {
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.edd-submit.button.blue {
+    color: #fff;
+    background: #1753f1;
+    border-color: #1753f1;
+}
+
+.edd-submit.button.blue.active, .edd-submit.button.blue:focus, .edd-submit.button.blue:hover {
+    color: #fff;
+    background: #356cfb;
+    border-color: #356cfb;
+}
+
+#edd_purchase_form fieldset input + p {
+	display: none;
+}
